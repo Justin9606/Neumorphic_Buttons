@@ -11,6 +11,7 @@
 		CE0A49122689CFCA00B9A6E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0A49112689CFCA00B9A6E4 /* ContentView.swift */; };
 		CE0A49142689CFCC00B9A6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0A49132689CFCC00B9A6E4 /* Assets.xcassets */; };
 		CE0A49172689CFCC00B9A6E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0A49162689CFCC00B9A6E4 /* Preview Assets.xcassets */; };
+		CE0A491F2689DA0600B9A6E4 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0A491E2689DA0600B9A6E4 /* Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CE0A49132689CFCC00B9A6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0A49162689CFCC00B9A6E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE0A49182689CFCC00B9A6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0A491E2689DA0600B9A6E4 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				CE0A490F2689CFCA00B9A6E4 /* NeumorphicButtonsApp.swift */,
 				CE0A49112689CFCA00B9A6E4 /* ContentView.swift */,
+				CE0A491E2689DA0600B9A6E4 /* Buttons.swift */,
 				CE0A49132689CFCC00B9A6E4 /* Assets.xcassets */,
 				CE0A49182689CFCC00B9A6E4 /* Info.plist */,
 				CE0A49152689CFCC00B9A6E4 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0A491F2689DA0600B9A6E4 /* Buttons.swift in Sources */,
 				CE0A49122689CFCA00B9A6E4 /* ContentView.swift in Sources */,
 				CE0A49102689CFCA00B9A6E4 /* NeumorphicButtonsApp.swift in Sources */,
 			);
@@ -277,7 +281,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jsondatafetchio.justin.NeumorphicButtons;
+				PRODUCT_BUNDLE_IDENTIFIER = neumorphicbuttons.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +303,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jsondatafetchio.justin.NeumorphicButtons;
+				PRODUCT_BUNDLE_IDENTIFIER = neumorphicbuttons.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
